@@ -29,7 +29,7 @@ class TelloUI:
         self.stopEvent = None  
         
         # control variables
-        self.distance = 1  # default distance for 'move' cmd
+        self.distance = 0.5  # default distance for 'move' cmd
         self.degree = 90  # default degree for 'cw' or 'ccw' cmd
 
         # if the flag is TRUE,the auto-takeoff thread will stop waiting for the response from tello
